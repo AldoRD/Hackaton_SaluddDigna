@@ -3,7 +3,7 @@ import { Box, Card, CardContent, CardMedia, Grid, Stack, Typography } from '@mui
 
 export const CardRecipe = ({ label, images, totalNutrients, calories }) => {
   return (
-    <Grid item xs={8} md={4}>
+    <Grid item xs={6} md={4}>
       <Card
         sx={{
           background: 'transparent'
